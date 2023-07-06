@@ -12,9 +12,13 @@ const app = express()
 //     }
 // ];
 
-app.use(function (request, response) {
-    response.sendFile(__dirname + '/index.html')
-})
+// app.use(function (request, response) {
+//     response.sendFile(__dirname + '/index.html')
+// })
+
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/index.html')
+});
 
 const data = 'Hello user!'
 
