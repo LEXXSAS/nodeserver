@@ -16,8 +16,14 @@ const app = express()
 //     response.sendFile(__dirname + '/index.html')
 // })
 
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html')
+// app.get('/', (req, res) => {
+//     res.sendFile(__dirname + '/index.html')
+// });
+
+app.use(express.static(__dirname + '/public'));
+
+app.get('/index.html', function(req, res, next) {
+    res.sendFile(__dirname + '/index.html');
 });
 
 const data = 'Hello user!'
