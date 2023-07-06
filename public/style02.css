@@ -87,7 +87,7 @@ img {
     /*    background: #bb86fc;*/
     padding: 13px;
     background-image: url(
-    './img/picachu01.png');
+    'img/picachu01.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -97,7 +97,7 @@ img {
     transform: translateX(-100px) translateY(0px) translateZ(-100px);
     /*    background: #bb86fc;*/
     padding: 13px;
-    background-image: url('./img/picachu01.png');
+    background-image: url('img/picachu01.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -106,7 +106,7 @@ img {
     transform: translateY(0px) rotateY(90deg) translateZ(0px);
     /*    background: #bb86fc;*/
     padding: 13px;
-    background-image: url('./img/picachu01.png');
+    background-image: url('img/picachu01.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -115,7 +115,7 @@ img {
     transform: translateX(-200px) translateY(0px) rotateY(90deg);
     /*    background: #bb86fc;*/
     padding: 13px;
-    background-image: url('./img/picachu01.png');
+    background-image: url('img/picachu01.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -133,7 +133,7 @@ img {
     transform: translateX(-100px) translateY(-100px) rotateX(90deg);
     /*    background: #bb86fc;*/
     padding: 13px;
-    background-image: url('./img/picachu01.png');
+    background-image: url('img/picachu01.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
